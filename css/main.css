@@ -1,4 +1,4 @@
-body {
+html {
   font-family: sans-serif;
 }
 
@@ -38,4 +38,57 @@ header {
 
 .content-three {
   background-color: green;
+}
+
+@media screen and (min-width: 420px) {
+  header {
+    height: 50px;
+  }
+
+  .article-container {
+    width: 100%;
+  }
+
+  .content-one {
+    height: 500px;
+  }
+
+  .content-two,
+  .content-three {
+    display: inline-block;
+    height: 200px;
+    width: 50%;
+  }
+
+  .content-three {
+    float: right;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .article-container {
+    width: 100%;
+    position: absolute;
+    top: 60px;
+  }
+
+  .content-one {
+    height: 975px;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .content-two {
+    float: left;
+  }
+
+  .content-three {
+    float: right;
+  }
+
+  .content-two,
+  .content-three {
+    height: 975px;
+    width: 25%;
+  }
 }
