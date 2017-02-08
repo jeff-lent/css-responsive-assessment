@@ -13,15 +13,15 @@ Add one or more media queries to the *main.css* file to make the page responsive
 
 ### Screen sizes greater than 800px
 
-![](images/2.png)
+![](images/1.png)
 
 ### Screen sizes greater than 420px
 
-![](images/3.png)
+![](images/2.png)
 
 ### Screen sizes less than 420px
 
-![](images/1.png)
+![](images/3.png)
 
 ## Success Criteria
 
