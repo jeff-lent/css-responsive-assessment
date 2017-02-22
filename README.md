@@ -6,6 +6,12 @@
 1. The page currently looks like this for all screen sizes:
 
   ![](images/current.png)
+  
+## Success Criteria
+
+- CSS Includes media queries with mobile-first breakpoints (min-width instead of max-width)
+- Uses flex box / floats / percentage-based widths to show content flowing to a grid (don't use `position`)
+- Includes meta tags to set the viewport correctly
 
 ## Update
 
@@ -22,9 +28,3 @@ Add one or more media queries to the *main.css* file to make the page responsive
 ### Screen sizes less than 420px
 
 ![](images/3.png)
-
-## Success Criteria
-
-- CSS Includes media queries with mobile-first breakpoints (min-width instead of max-width)
-- Uses flex box / floats / percentage-based widths to show content flowing to a grid
-- Includes meta tags to set the viewport correctly
